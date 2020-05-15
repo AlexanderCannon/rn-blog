@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "title": "Fist Post",
+      "content": "This is the body of my first post",
+      "id": 1
+    },
+    {
+      "title": "Second post ",
+      "content": "This might just be my second post!",
+      "id": 2
+    },
+    {
+      "title": "Third Post",
+      "content": "I’d love it if I wrote a third post.",
+      "id": 3
+    },
+    {
+      "title": "Fourth Post",
+      "content": "Writing posts is fucking cool as fuck",
+      "id": 4
+    },
+    {
+      "title": "Fifth Post",
+      "content": "Hi there, this post is better than the previous ones as I have written a few.",
+      "id": 5
+    },
+    {
+      "title": "Sixth Post",
+      "content": "I’m too cool for this now",
+      "id": 6
+    },
+    {
+      "title": "Post number 7",
+      "content": "More words, it’s so hard to think of them.",
+      "id": 7
+    }
+  ]
+}
