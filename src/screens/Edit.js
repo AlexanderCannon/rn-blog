@@ -10,6 +10,7 @@ const Edit = ({ navigation }) => {
   return (
     <>
       <PostForm
+      label="Edit my post"
         initialValues={{ title, content }}
         onSubmit={(title, content) => {
           editPost(id, title, content, () => {

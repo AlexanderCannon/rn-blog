@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Text, StyleSheet, TextInput, Button } from "react-native";
 
-const PostForm = ({ onSubmit, initialValues }) => {
+const PostForm = ({ onSubmit, initialValues, label }) => {
   const [title, setTitle] = useState(initialValues && initialValues.title);
   const [content, setContent] = useState(
     initialValues && initialValues.content
@@ -17,7 +17,7 @@ const PostForm = ({ onSubmit, initialValues }) => {
         onChangeText={setContent}
         multiline
       />
-      <Button title="Add new post" onPress={() => onSubmit(title, content)} />
+      <Button title={label} onPress={() => onSubmit(title, content)} />
     </>
   );
 };

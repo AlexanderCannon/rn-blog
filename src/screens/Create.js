@@ -8,6 +8,7 @@ const Create = ({ navigation }) => {
   return (
     <>
       <PostForm
+        label="Add new post"
         onSubmit={(title, content) => {
           addPost(title, content, () => {
             navigation.navigate("Index");
